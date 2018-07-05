@@ -1,0 +1,40 @@
+2018/07/05-21:44:25.589 1341 Reusing MANIFEST /home/anka/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/05-21:44:25.590 1341 Recovering log #1462
+2018/07/05-21:44:25.613 1341 Reusing old log /home/anka/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/001462.log 
+2018/07/05-21:44:29.257 1894 Compacting 2@0 + 2@1 files
+2018/07/05-21:44:29.523 1894 Generated table #1465@0: 24 keys, 2235897 bytes
+2018/07/05-21:44:29.556 1894 Generated table #1466@0: 22 keys, 1584 bytes
+2018/07/05-21:44:29.557 1894 Compacted 2@0 + 2@1 files => 2237481 bytes
+2018/07/05-21:44:29.633 1894 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/07/05-21:44:29.633 1894 Delete type=2 #1461
+2018/07/05-21:44:29.635 1894 Delete type=2 #1459
+2018/07/05-21:44:29.636 1894 Delete type=2 #1463
+2018/07/05-21:44:29.636 1894 Delete type=2 #1458
+2018/07/05-21:44:37.378 1894 Level-0 table #1468: started
+2018/07/05-21:44:37.539 1894 Level-0 table #1468: 1151766 bytes OK
+2018/07/05-21:44:37.587 1894 Delete type=0 #1462
+2018/07/05-21:44:40.470 1894 Level-0 table #1470: started
+2018/07/05-21:44:40.868 1894 Level-0 table #1470: 1139084 bytes OK
+2018/07/05-21:44:40.898 1881 Current memtable full; waiting...
+2018/07/05-21:44:40.938 1894 Delete type=0 #1467
+2018/07/05-21:44:40.943 1894 Level-0 table #1472: started
+2018/07/05-21:44:41.126 1894 Level-0 table #1472: 1090150 bytes OK
+2018/07/05-21:44:41.172 1894 Delete type=0 #1469
+2018/07/05-21:44:43.943 1894 Level-0 table #1474: started
+2018/07/05-21:44:44.339 1894 Level-0 table #1474: 1139084 bytes OK
+2018/07/05-21:44:44.366 1169 Current memtable full; waiting...
+2018/07/05-21:44:44.419 1894 Delete type=0 #1471
+2018/07/05-21:44:44.425 1894 Compacting 4@0 + 2@1 files
+2018/07/05-21:44:44.456 1894 Level-0 table #1476: started
+2018/07/05-21:44:44.616 1894 Level-0 table #1476: 1090152 bytes OK
+2018/07/05-21:44:44.731 1894 Delete type=0 #1473
+2018/07/05-21:44:45.128 1894 Generated table #1477@0: 24 keys, 2228023 bytes
+2018/07/05-21:44:45.230 1894 Generated table #1478@0: 22 keys, 1584 bytes
+2018/07/05-21:44:45.230 1894 Compacted 4@0 + 2@1 files => 2229607 bytes
+2018/07/05-21:44:45.298 1894 compacted to: files[ 1 2 1 0 0 0 0 ]
+2018/07/05-21:44:45.299 1894 Delete type=2 #1468
+2018/07/05-21:44:45.300 1894 Delete type=2 #1470
+2018/07/05-21:44:45.303 1894 Delete type=2 #1472
+2018/07/05-21:44:45.304 1894 Delete type=2 #1466
+2018/07/05-21:44:45.304 1894 Delete type=2 #1474
+2018/07/05-21:44:45.311 1894 Delete type=2 #1465

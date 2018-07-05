@@ -1,0 +1,168 @@
+{
+   "checksum": "8da0e347d1f977a25e2d3c56705090dc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13162072512905060",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13174763589399990"
+            },
+            "name": "Google Translate",
+            "sync_transaction_version": "188",
+            "type": "url",
+            "url": "https://translate.google.com.ua/?hl=en"
+         }, {
+            "date_added": "13162072890807121",
+            "id": "18",
+            "meta_info": {
+               "last_visited": "13167037357639208",
+               "last_visited_desktop": "13174764964998391"
+            },
+            "name": "YouTube",
+            "sync_transaction_version": "189",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "children": [ {
+               "date_added": "13161649991584099",
+               "id": "8",
+               "meta_info": {
+                  "last_visited_desktop": "13161649991584637"
+               },
+               "name": "powerlevel9k theme for ZSH",
+               "sync_transaction_version": "11",
+               "type": "url",
+               "url": "https://github.com/bhilburn/powerlevel9k"
+            }, {
+               "date_added": "13161650047765494",
+               "id": "9",
+               "meta_info": {
+                  "last_visited_desktop": "13162066596628256"
+               },
+               "name": "Luke Smith`s dotfiles for the Linux rice",
+               "sync_transaction_version": "68",
+               "type": "url",
+               "url": "https://github.com/LukeSmithxyz/voidrice"
+            }, {
+               "date_added": "13161650111688194",
+               "id": "10",
+               "meta_info": {
+                  "last_visited_desktop": "13162819283994996"
+               },
+               "name": "Nerd Fonts [Cheat Sheet]",
+               "sync_transaction_version": "100",
+               "type": "url",
+               "url": "http://nerdfonts.com/#cheat-sheet"
+            }, {
+               "date_added": "13161650153544987",
+               "id": "11",
+               "meta_info": {
+                  "last_visited_desktop": "13161650153545632"
+               },
+               "name": "Oh-my-zsh",
+               "sync_transaction_version": "23",
+               "type": "url",
+               "url": "https://github.com/robbyrussell/oh-my-zsh"
+            }, {
+               "date_added": "13161650223171655",
+               "id": "12",
+               "meta_info": {
+                  "last_visited_desktop": "13170683361865837"
+               },
+               "name": "Polybar",
+               "sync_transaction_version": "174",
+               "type": "url",
+               "url": "https://github.com/jaagr/polybar"
+            }, {
+               "date_added": "13161650361193580",
+               "id": "13",
+               "meta_info": {
+                  "last_visited_desktop": "13161650361194072"
+               },
+               "name": "Nerd-fonts",
+               "sync_transaction_version": "32",
+               "type": "url",
+               "url": "https://github.com/ryanoasis/nerd-fonts"
+            }, {
+               "date_added": "13161902132586141",
+               "id": "15",
+               "meta_info": {
+                  "last_visited_desktop": "13161902132586740"
+               },
+               "name": "Luke Smith - YouTube",
+               "sync_transaction_version": "55",
+               "type": "url",
+               "url": "https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA"
+            }, {
+               "date_added": "13162074034146450",
+               "id": "19",
+               "meta_info": {
+                  "last_visited_desktop": "13170680778125778"
+               },
+               "name": "bookercodes/dotfiles",
+               "sync_transaction_version": "172",
+               "type": "url",
+               "url": "https://github.com/bookercodes/dotfiles/tree/ubuntu"
+            } ],
+            "date_added": "13161649974711590",
+            "date_modified": "13162316513785792",
+            "id": "7",
+            "name": "Arch Linux Stuff",
+            "sync_transaction_version": "6",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13165620645387371",
+               "id": "22",
+               "meta_info": {
+                  "last_visited_desktop": "13173305669317489"
+               },
+               "name": "Linguee | Deutsch-Englisch Wörterbuch",
+               "sync_transaction_version": "182",
+               "type": "url",
+               "url": "https://www.linguee.de/deutsch-englisch"
+            }, {
+               "date_added": "13165620733195615",
+               "id": "23",
+               "meta_info": {
+                  "last_visited_desktop": "13165620733196228"
+               },
+               "name": "YeNotes – Відмінювання дієслів, іменників, прикметників для різних мов",
+               "sync_transaction_version": "124",
+               "type": "url",
+               "url": "https://www.yenotes.com/uk/words/conjugations/search/"
+            } ],
+            "date_added": "13165620583175518",
+            "date_modified": "13165620733195615",
+            "id": "21",
+            "name": "Deutsch",
+            "sync_transaction_version": "117",
+            "type": "folder"
+         } ],
+         "date_added": "13159836045268437",
+         "date_modified": "13170076842255003",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13159836045268457",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "189",
+      "synced": {
+         "children": [  ],
+         "date_added": "13159836045268464",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

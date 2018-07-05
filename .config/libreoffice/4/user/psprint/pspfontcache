@@ -1,0 +1,983 @@
+LibreOffice PspFontCacheFile format 6
+FontCacheDirectory:1518982300:/usr/share/fonts/TTF
+File:GOST_A_.ttf
+2;1
+GOST type A
+0;GOST-2.304-81typeA;0;3;5;2;65535;830;219;23;0;1198;1049;1198;1049;0;0;0;0;Standard
+
+File:GohaTibebZemen.ttf
+2;1
+Goha-Tibeb Zemen
+0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1223;1000;1223;1000;0;0;0;0;Regular
+
+File:GOST_B_.ttf
+2;1
+GOST type B
+0;GOST-2.304-81typeB;0;5;5;2;65535;889;205;26;0;1435;1094;1435;1094;0;0;0;0;Standard
+
+FontCacheDirectory:1517082967:/usr/share/fonts/gsfonts
+File:URWGothic-Book.otf
+2;1
+URW Gothic
+0;URWGothic-Book;0;5;5;2;65535;739;261;200;0;1295;1000;1295;1000;0;0;0;65540;Book
+
+File:D050000L.otf
+2;1
+D050000L
+0;D050000L;0;5;5;2;65535;1057;143;150;0;982;1200;982;1200;0;0;0;65536;Regular
+
+File:NimbusSansNarrow-BdOblique.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-BoldOblique;1;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold Oblique
+
+File:C059-BdIta.otf
+2;1
+C059
+0;C059-BdIta;2;8;5;2;65535;736;264;200;0;1447;1000;1447;1000;0;0;0;65540;Bold Italic
+
+File:NimbusSansNarrow-Bold.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Bold;0;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold
+
+File:NimbusSansNarrow-Oblique.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Oblique;1;5;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Oblique
+
+File:URWBookman-Demi.otf
+2;1
+URW Bookman
+0;URWBookman-Demi;0;7;5;2;65535;724;276;200;0;1540;1000;1540;1000;0;0;0;65540;Demi
+
+File:NimbusRoman-BoldItalic.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-BoldItalic;2;8;5;2;65535;699;301;200;0;1354;1000;1354;1000;0;0;0;65540;Bold Italic
+
+File:URWGothic-DemiOblique.otf
+2;1
+URW Gothic
+0;URWGothic-DemiOblique;1;7;5;2;65535;739;261;200;0;1425;1000;1425;1000;0;0;0;65540;Demi Oblique
+
+File:NimbusSans-Regular.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Regular;0;5;5;2;65535;729;271;200;0;1242;1000;1242;1000;0;0;0;65540;Regular
+
+File:NimbusSansNarrow-Regular.otf
+2;1
+Nimbus Sans Narrow
+0;NimbusSansNarrow-Regular;0;5;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Regular
+
+File:URWGothic-BookOblique.otf
+2;1
+URW Gothic
+0;URWGothic-BookOblique;1;5;5;2;65535;739;261;200;0;1419;1000;1419;1000;0;0;0;65540;Book Oblique
+
+File:StandardSymbolsPS.otf
+2;1
+Standard Symbols PS
+0;StandardSymbolsPS;0;5;5;2;65535;778;222;150;0;1270;1000;1270;1000;0;0;0;65540;Regular
+
+File:P052-Bold.otf
+2;1
+P052
+0;P052-Bold;0;8;5;2;65535;720;280;200;0;1267;1000;1267;1000;0;0;0;65540;Bold
+
+File:URWBookman-Light.otf
+2;1
+URW Bookman
+0;URWBookman-Light;0;3;5;2;65535;717;283;200;0;1454;1000;1454;1000;0;0;0;65540;Light
+
+File:P052-Roman.otf
+2;1
+P052
+0;P052-Roman;0;5;5;2;65535;726;274;200;0;1246;1000;1246;1000;0;0;0;65540;Roman
+
+File:URWBookman-DemiItalic.otf
+2;1
+URW Bookman
+0;URWBookman-DemiItalic;2;7;5;2;65535;732;268;200;0;1564;1000;1564;1000;0;0;0;65540;Demi Italic
+
+File:NimbusMonoPS-Bold.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Bold;0;8;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Bold
+
+File:C059-Roman.otf
+2;1
+C059
+0;C059-Roman;0;5;5;2;65535;737;263;200;0;1335;1000;1335;1000;0;0;0;65540;Roman
+
+File:NimbusRoman-Regular.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Regular;0;5;5;2;65535;683;317;200;0;1168;1000;1168;1000;0;0;0;65540;Regular
+
+File:NimbusSans-Italic.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Italic;2;5;5;2;65535;729;271;200;0;1298;1000;1298;1000;0;0;0;65540;Italic
+
+File:NimbusRoman-Italic.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Italic;2;5;5;2;65535;683;317;200;0;1254;1000;1254;1000;0;0;0;65540;Italic
+
+File:URWGothic-Demi.otf
+2;1
+URW Gothic
+0;URWGothic-Demi;0;7;5;2;65535;739;261;200;0;1392;1000;1392;1000;0;0;0;65540;Demi
+
+File:NimbusSans-BoldItalic.otf
+2;1
+Nimbus Sans
+0;NimbusSans-BoldItalic;2;8;5;2;65535;729;271;200;0;1340;1000;1340;1000;0;0;0;65540;Bold Italic
+
+File:NimbusSans-Bold.otf
+2;1
+Nimbus Sans
+0;NimbusSans-Bold;0;8;5;2;65535;729;271;200;0;1257;1000;1257;1000;0;0;0;65540;Bold
+
+File:NimbusMonoPS-BoldItalic.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-BoldItalic;2;8;5;1;65535;603;397;200;0;1005;1000;1005;1000;0;0;0;65540;Bold Italic
+
+File:NimbusMonoPS-Regular.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Regular;0;5;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Regular
+
+File:Z003-MediumItalic.otf
+2;1
+Z003
+0;Z003-MediumItalic;2;6;5;2;65535;677;323;200;0;1293;1000;1293;1000;0;0;0;65540;Medium Italic
+
+File:C059-Italic.otf
+2;1
+C059
+0;C059-Italic;2;5;5;2;65535;737;263;200;0;1366;1000;1366;1000;0;0;0;65540;Italic
+
+File:P052-Italic.otf
+2;1
+P052
+0;P052-Italic;2;5;5;2;65535;733;267;200;0;1272;1000;1272;1000;0;0;0;65540;Italic
+
+File:P052-BoldItalic.otf
+2;1
+P052
+0;P052-BoldItalic;2;8;5;2;65535;726;274;200;0;1304;1000;1304;1000;0;0;0;65540;Bold Italic
+
+File:C059-Bold.otf
+2;1
+C059
+0;C059-Bold;0;8;5;2;65535;737;263;200;0;1396;1000;1396;1000;0;0;0;65540;Bold
+
+File:URWBookman-LightItalic.otf
+2;1
+URW Bookman
+0;URWBookman-LightItalic;2;3;5;2;65535;715;285;200;0;1497;1000;1497;1000;0;0;0;65540;Light Italic
+
+File:NimbusRoman-Bold.otf
+2;1
+Nimbus Roman
+0;NimbusRoman-Bold;0;8;5;2;65535;676;324;200;0;1247;1000;1247;1000;0;0;0;65540;Bold
+
+File:NimbusMonoPS-Italic.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Italic;2;5;5;1;65535;603;397;200;0;953;1000;953;1000;0;0;0;65540;Italic
+
+FontCacheDirectory:1518288640:/usr/lib/libreoffice/share/fonts/truetype
+File:opens___.ttf
+2;1
+OpenSymbol
+0;OpenSymbol;0;5;5;2;65535;693;215;149;0;1262;908;1262;908;0;0;0;8;Regular
+
+FontCacheDirectory:1516468277:/usr/share/fonts/mononoki
+File:mononoki Bold Italic Nerd Font Complete.ttf
+2;1
+mononoki Nerd Font
+0;mononokiNerdFontC-Bold Italic;2;8;5;2;65535;878;244;168;0;2414;1122;2414;1122;0;0;0;8;BoldItalic
+
+File:mononoki-Regular Nerd Font Complete.ttf
+2;1
+mononoki Nerd Font
+0;mononokiNerdFontC-Regular;0;5;5;2;65535;878;244;168;0;2426;1122;2426;1122;0;0;0;8;Regular
+
+File:mononoki Bold Italic Nerd Font Complete Mono.ttf
+2;1
+mononoki Nerd Font Mono
+0;mononokiNerdFontCM-Bold Italic;2;8;5;1;65535;878;244;168;0;1088;1122;1088;1122;0;0;0;8;BoldItalic
+
+File:mononoki Italic Nerd Font Complete.ttf
+2;1
+mononoki Nerd Font
+0;mononokiNerdFontC-Italic;2;5;5;2;65535;878;244;168;0;2438;1122;2438;1122;0;0;0;8;Italic
+
+File:mononoki Italic Nerd Font Complete Mono.ttf
+2;1
+mononoki Nerd Font Mono
+0;mononokiNerdFontCM-Italic;2;5;5;1;65535;878;244;168;0;1088;1122;1088;1122;0;0;0;8;Italic
+
+File:mononoki Bold Nerd Font Complete Mono.ttf
+2;1
+mononoki Nerd Font Mono
+0;mononokiNerdFontCM-Bold;0;8;5;1;65535;878;244;168;0;991;1122;991;1122;0;0;0;8;Bold
+
+File:mononoki Bold Italic Nerd Font Complete Mono Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontCM-Bold Italic;2;8;5;1;65535;878;244;168;0;1088;1122;1088;1122;0;0;0;8;BoldItalic
+
+File:mononoki-Regular Nerd Font Complete Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontC-Regular;0;5;5;2;65535;878;244;168;0;2426;1122;2426;1122;0;0;0;8;Regular
+
+File:mononoki Bold Nerd Font Complete Mono Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontCM-Bold;0;8;5;1;65535;878;244;168;0;991;1122;991;1122;0;0;0;8;Bold
+
+File:mononoki Bold Italic Nerd Font Complete Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontC-Bold Italic;2;8;5;2;65535;878;244;168;0;2414;1122;2414;1122;0;0;0;8;BoldItalic
+
+File:mononoki Italic Nerd Font Complete Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontC-Italic;2;5;5;2;65535;878;244;168;0;2438;1122;2438;1122;0;0;0;8;Italic
+
+File:mononoki Italic Nerd Font Complete Mono Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontCM-Italic;2;5;5;1;65535;878;244;168;0;1088;1122;1088;1122;0;0;0;8;Italic
+
+File:mononoki-Regular Nerd Font Complete Mono Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontCM-Regular;0;5;5;1;65535;878;244;168;0;995;1122;995;1122;0;0;0;8;Regular
+
+File:mononoki Bold Nerd Font Complete Windows Compatible.ttf
+2;1
+mononoki NF
+0;mononokiNerdFontC-Bold;0;8;5;2;65535;878;244;168;0;2438;1122;2438;1122;0;0;0;8;Bold
+
+File:mononoki Bold Nerd Font Complete.ttf
+2;1
+mononoki Nerd Font
+0;mononokiNerdFontC-Bold;0;8;5;2;65535;878;244;168;0;2438;1122;2438;1122;0;0;0;8;Bold
+
+File:mononoki-Regular Nerd Font Complete Mono.ttf
+2;1
+mononoki Nerd Font Mono
+0;mononokiNerdFontCM-Regular;0;5;5;1;65535;878;244;168;0;995;1122;995;1122;0;0;0;8;Regular
+
+FontCacheDirectory:1516458680:/home/anka/.local/share/fonts
+File:DejaVu Sans Mono Bold for Powerline.ttf
+2;1
+DejaVu Sans Mono for Powerline
+0;DejaVuSansMonoPowerline-Bold;0;8;5;1;65535;928;235;174;0;1177;1163;1177;1163;0;0;0;0;Bold
+
+File:Meslo LG S DZ Bold for Powerline.ttf
+2;1
+Meslo LG S DZ for Powerline
+0;MesloLGSDZForPowerline-Bold;0;8;5;1;65535;977;284;189;0;1204;1261;1204;1261;0;0;0;0;Bold
+
+File:DejaVu Sans Mono for Powerline.ttf
+2;1
+DejaVu Sans Mono for Powerline
+0;DejaVuSansMonoPowerline;0;5;5;1;65535;928;235;174;0;1275;1163;1275;1163;0;0;0;0;Book
+
+File:Cousine Italic for Powerline.ttf
+2;1
+Cousine for Powerline
+0;CousineForPowerline-Italic;2;5;5;1;65535;832;300;169;0;1304;1132;1304;1132;0;0;0;0;Italic
+
+File:Meslo LG L DZ Bold Italic for Powerline.ttf
+2;1
+Meslo LG L DZ for Powerline
+0;MesloLGLDZForPowerline-BoldItalic;2;8;5;1;65535;1123;431;233;0;1240;1554;1240;1554;0;0;0;0;Bold Italic
+
+File:Go Mono Bold Italic for Powerline.ttf
+2;1
+Go Mono for Powerline
+0;GoMonoForPowerline-BoldItalic;2;7;5;1;65535;944;210;173;0;877;1154;877;1154;0;0;0;0;Bold Italic
+
+File:Cousine for Powerline.ttf
+2;1
+Cousine for Powerline
+0;CousineForPowerline;0;5;5;1;65535;832;300;169;0;1223;1132;1223;1132;0;0;0;0;Regular
+
+File:Arimo for Powerline.ttf
+2;1
+Arimo for Powerline
+0;ArimoForPowerline;0;5;5;2;65535;905;211;32;0;3339;1116;3339;1116;0;0;0;0;Regular
+
+File:Source Code Pro Semibold for Powerline.otf
+2;1
+Source Code Pro Semibold
+0;SourceCodeProForPowerline-Semibold;0;7;5;1;65535;984;273;188;0;1000;1257;1000;1257;0;0;0;65536;Semibold
+
+File:ProFont For Powerline.ttf
+2;1
+ProFont for Powerline
+0;ProFontForPowerline;0;5;5;1;65535;750;250;150;0;552;1000;552;1000;0;0;0;0;Regular
+
+File:Meslo LG L DZ Italic for Powerline.ttf
+2;1
+Meslo LG L DZ for Powerline
+0;MesloLGLDZForPowerline-Italic;2;5;5;1;65535;1123;431;233;0;1090;1554;1090;1554;0;0;0;0;Italic
+
+File:Space Mono for Powerline.ttf
+2;1
+Space Mono for Powerline
+0;SpaceMonoForPowerline-Regular;0;5;5;1;65535;1120;361;222;0;753;1481;753;1481;0;0;0;0;Regular
+
+File:3270Medium.ttf
+2;1
+IBM 3270
+0;3270Medium;0;6;5;1;65535;802;200;90;0;539;1002;539;1002;0;0;0;0;Medium
+
+File:Meslo LG S Bold Italic for Powerline.ttf
+2;1
+Meslo LG S for Powerline
+0;MesloLGSForPowerline-BoldItalic;2;8;5;1;65535;977;284;189;0;1240;1261;1240;1261;0;0;0;0;Bold Italic
+
+File:Anonymice Powerline Bold.ttf
+2;1
+Anonymice Powerline
+0;AnonymicePowerline-Bold;0;8;5;1;65535;817;182;149;0;695;999;695;999;0;0;0;0;Bold
+
+File:Inconsolata for Powerline.otf
+2;1
+Inconsolata for Powerline
+0;InconsolataForPowerline;0;6;5;1;65535;834;176;90;0;769;1010;769;1010;0;0;0;65544;Medium
+
+File:Cousine Bold for Powerline.ttf
+2;1
+Cousine for Powerline
+0;CousineForPowerline-Bold;0;8;5;1;65535;832;300;169;0;1177;1132;1177;1132;0;0;0;0;Bold
+
+File:Anonymice Powerline.ttf
+2;1
+Anonymice Powerline
+0;AnonymicePowerline;0;5;5;1;65535;817;182;149;0;701;999;701;999;0;0;0;0;Regular
+
+File:DejaVu Sans Mono Oblique for Powerline.ttf
+2;1
+DejaVu Sans Mono for Powerline
+0;DejaVuSansMonoPowerline-Oblique;1;5;5;1;65535;928;235;174;0;1167;1163;1167;1163;0;0;0;0;Oblique
+
+File:Roboto Mono Italic for Powerline.ttf
+2;1
+Roboto Mono for Powerline
+0;RobotoMonoForPowerline-Italic;2;5;5;2;65535;927;244;175;0;1402;1171;1402;1171;0;0;0;0;Italic
+
+File:Source Code Pro Powerline ExtraLightItalic.otf
+2;1
+Source Code Pro ExtraLight
+0;SourceCodeProForPowerline-ExtraLightIt;2;2;5;1;65535;984;273;188;0;1085;1257;1085;1257;0;0;0;65536;ExtraLight Italic
+
+File:Meslo LG S Regular for Powerline.ttf
+2;1
+Meslo LG S for Powerline
+0;MesloLGSForPowerline-Regular;0;5;5;1;65535;977;284;189;0;1060;1261;1060;1261;0;0;0;0;Regular
+
+File:Inconsolata Bold for Powerline.ttf
+2;1
+Inconsolata for Powerline
+0;Inconsolata-BoldForPowerline;0;8;5;1;65535;858;189;157;0;540;1047;540;1047;0;0;0;0;BoldForPowerline
+
+File:Source Code Pro ExtraLight for Powerline.otf
+2;1
+Source Code Pro ExtraLight
+0;SourceCodeProForPowerline-ExtraLight;0;2;5;1;65535;984;273;188;0;960;1257;960;1257;0;0;0;65536;ExtraLight
+
+File:Source Code Pro Bold for Powerline.otf
+2;1
+Source Code Pro for Powerline
+0;SourceCodeProForPowerline-Bold;0;8;5;1;65535;984;273;188;0;1016;1257;1016;1257;0;0;0;65536;Bold
+
+File:Literation Mono Powerline Bold Italic.ttf
+2;1
+Literation Mono Powerline
+0;LiterationMonoPowerline-BoldItalic;2;8;5;1;65535;832;300;169;0;1272;1132;1272;1132;0;0;0;0;Bold Italic
+
+File:Roboto Mono Medium Italic for Powerline.ttf
+2;1
+Roboto Mono Medium for Powerline
+0;RobotoMonoForPowerline-MediumItalic;2;6;5;2;65535;927;244;175;0;1421;1171;1421;1171;0;0;0;0;Medium Italic
+
+File:DejaVu Sans Mono Bold Oblique for Powerline.ttf
+2;1
+DejaVu Sans Mono for Powerline
+0;DejaVuSansMonoPowerline-BoldOblique;1;8;5;1;65535;928;235;174;0;1253;1163;1253;1163;0;0;0;0;Bold Oblique
+
+File:Droid Sans Mono Dotted for Powerline.ttf
+2;1
+Droid Sans Mono Dotted for Powerline
+0;DroidSansMonoDottedForPowerline;0;5;5;1;65535;928;235;174;0;829;1163;829;1163;0;0;0;8;Regular
+
+File:Anonymice Powerline Italic.ttf
+2;1
+Anonymice Powerline
+0;AnonymicePowerline-Italic;2;5;5;1;65535;817;182;149;0;771;999;771;999;0;0;0;0;Italic
+
+File:Source Code Pro Medium for Powerline.otf
+2;1
+Source Code Pro Medium
+0;SourceCodeProForPowerline-Medium;0;6;5;1;65535;984;273;188;0;994;1257;994;1257;0;0;0;65536;Medium
+
+File:Droid Sans Mono for Powerline.otf
+2;1
+Droid Sans Mono for Powerline
+0;DroidSansMonoForPowerline;0;5;5;1;65535;928;235;174;0;828;1163;828;1163;0;0;0;65544;Regular
+
+File:Go Mono Italic for Powerline.ttf
+2;1
+Go Mono for Powerline
+0;GoMonoForPowerline-Italic;2;5;5;2;65535;944;210;173;0;853;1154;853;1154;0;0;0;0;Italic
+
+File:Space Mono Italic for Powerline.ttf
+2;1
+Space Mono for Powerline
+0;SpaceMonoForPowerline-Italic;2;5;5;1;65535;1120;361;222;0;832;1481;832;1481;0;0;0;0;Italic
+
+File:Symbol Neu for Powerline.ttf
+2;1
+Symbol Neu for Powerline
+0;SymbolNeuForPowerline;0;5;5;2;65535;1005;219;183;0;1373;1224;1373;1224;0;0;0;8;Regular
+
+File:Droid Sans Mono Slashed for Powerline.ttf
+2;1
+Droid Sans Mono Slashed for Powerline
+0;DroidSansMonoSlashedForPowerline;0;5;5;1;65535;928;235;174;0;829;1163;829;1163;0;0;0;8;Regular
+
+File:Ubuntu Mono derivative Powerline.ttf
+2;1
+Ubuntu Mono derivative Powerline
+0;UbuntuMonoDerivativePowerline-Regular;0;5;5;1;65535;830;170;150;0;981;1000;981;1000;0;0;0;0;Regular
+
+File:Meslo LG S DZ Regular for Powerline.ttf
+2;1
+Meslo LG S DZ for Powerline
+0;MesloLGSDZForPowerline-Regular;0;5;5;1;65535;977;284;189;0;1060;1261;1060;1261;0;0;0;0;Regular
+
+File:Literation Mono Powerline.ttf
+2;1
+Literation Mono Powerline
+0;LiterationMonoPowerline;0;5;5;1;65535;832;300;169;0;1223;1132;1223;1132;0;0;0;0;Regular
+
+File:Meslo LG M Bold Italic for Powerline.ttf
+2;1
+Meslo LG M for Powerline
+0;MesloLGMForPowerline-BoldItalic;2;8;5;1;65535;1025;333;203;0;1240;1358;1240;1358;0;0;0;0;Bold Italic
+
+File:Meslo LG M Bold for Powerline.ttf
+2;1
+Meslo LG M for Powerline
+0;MesloLGMForPowerline-Bold;0;8;5;1;65535;1025;333;203;0;1204;1358;1204;1358;0;0;0;0;Bold
+
+File:Go Mono for Powerline.ttf
+2;1
+Go Mono for Powerline
+0;GoMonoForPowerline;0;5;5;1;65535;944;210;173;0;664;1154;664;1154;0;0;0;0;Regular
+
+File:Meslo LG M DZ Bold for Powerline.ttf
+2;1
+Meslo LG M DZ for Powerline
+0;MesloLGMDZForPowerline-Bold;0;8;5;1;65535;1025;333;203;0;1204;1358;1204;1358;0;0;0;0;Bold
+
+File:Meslo LG L DZ Regular for Powerline.ttf
+2;1
+Meslo LG L DZ for Powerline
+0;MesloLGLDZForPowerline-Regular;0;5;5;1;65535;1123;431;233;0;1060;1554;1060;1554;0;0;0;0;Regular
+
+File:Meslo LG S DZ Italic for Powerline.ttf
+2;1
+Meslo LG S DZ for Powerline
+0;MesloLGSDZForPowerline-Italic;2;5;5;1;65535;977;284;189;0;1090;1261;1090;1261;0;0;0;0;Italic
+
+File:Meslo LG S Italic for Powerline.ttf
+2;1
+Meslo LG S for Powerline
+0;MesloLGSForPowerline-Italic;2;5;5;1;65535;977;284;189;0;1090;1261;1090;1261;0;0;0;0;Italic
+
+File:Meslo LG L DZ Bold for Powerline.ttf
+2;1
+Meslo LG L DZ for Powerline
+0;MesloLGLDZForPowerline-Bold;0;8;5;1;65535;1123;431;233;0;1204;1554;1204;1554;0;0;0;0;Bold
+
+File:Meslo LG M DZ Bold Italic for Powerline.ttf
+2;1
+Meslo LG M DZ for Powerline
+0;MesloLGMDZForPowerline-BoldItalic;2;8;5;1;65535;1025;333;203;0;1240;1358;1240;1358;0;0;0;0;Bold Italic
+
+File:SpaceMono-Italic.ttf
+2;1
+Space Mono
+0;SpaceMono-Italic;2;5;5;1;65535;1120;361;222;0;794;1481;794;1481;0;0;0;0;Italic
+
+File:Noto Mono for Powerline.ttf
+2;1
+Noto Mono for Powerline
+0;NotoMonoForPowerline;0;5;5;1;65535;927;244;175;0;829;1171;829;1171;0;0;0;0;Regular
+
+File:ProFont Bold For Powerline.ttf
+2;1
+ProFont for Powerline
+0;ProFontForPowerline-Bold;0;8;5;1;65535;750;250;150;0;612;1000;612;1000;0;0;0;0;Bold
+
+File:Literation Mono Powerline Bold.ttf
+2;1
+Literation Mono Powerline
+0;LiterationMonoPowerline-Bold;0;8;5;1;65535;832;300;169;0;1177;1132;1177;1132;0;0;0;0;Bold
+
+File:Literation Mono Powerline Italic.ttf
+2;1
+Literation Mono Powerline
+0;LiterationMonoPowerline-Italic;2;5;5;1;65535;832;300;169;0;1304;1132;1304;1132;0;0;0;0;Italic
+
+File:Meslo LG L Bold for Powerline.ttf
+2;1
+Meslo LG L for Powerline
+0;MesloLGLForPowerline-Bold;0;8;5;1;65535;1123;431;233;0;1204;1554;1204;1554;0;0;0;0;Bold
+
+File:Roboto Mono for Powerline.ttf
+2;1
+Roboto Mono for Powerline
+0;RobotoMonoForPowerline-Regular;0;5;5;2;65535;927;244;175;0;1446;1171;1446;1171;0;0;0;0;Regular
+
+File:Ubuntu Mono derivative Powerline Italic.ttf
+2;1
+Ubuntu Mono derivative Powerline
+0;UbuntuMonoDerivativePowerline-Italic;2;5;5;1;65535;830;170;150;0;905;1000;905;1000;0;0;0;0;Italic
+
+File:Source Code Pro Light for Powerline.otf
+2;1
+Source Code Pro Light
+0;SourceCodeProForPowerline-Light;0;3;5;1;65535;984;273;188;0;966;1257;966;1257;0;0;0;65536;Light
+
+File:3270Narrow.ttf
+2;1
+IBM 3270 Narrow
+0;3270Narrow;0;6;5;1;65535;802;200;90;0;539;1002;539;1002;0;0;0;0;Medium
+
+File:Meslo LG M DZ Italic for Powerline.ttf
+2;1
+Meslo LG M DZ for Powerline
+0;MesloLGMDZForPowerline-Italic;2;5;5;1;65535;1025;333;203;0;1090;1358;1090;1358;0;0;0;0;Italic
+
+File:Roboto Mono Thin for Powerline.ttf
+2;1
+Roboto Mono Thin for Powerline
+0;RobotoMonoForPowerline-Thin;0;3;5;2;65535;927;244;175;0;1582;1171;1582;1171;0;0;0;0;Thin
+
+File:NovaMono for Powerline.ttf
+2;1
+NovaMono for Powerline
+0;NovaMonoForPowerline;0;5;5;1;65535;1081;312;208;0;750;1393;750;1393;0;0;0;8;Regular
+
+File:Roboto Mono Bold Italic for Powerline.ttf
+2;1
+Roboto Mono for Powerline
+0;RobotoMonoForPowerline-BoldItalic;2;8;5;2;65535;927;244;175;0;1772;1171;1772;1171;0;0;0;0;Bold Italic
+
+File:Roboto Mono Light Italic for Powerline.ttf
+2;1
+Roboto Mono Light for Powerline
+0;RobotoMonoForPowerline-LightItalic;2;3;5;2;65535;927;244;175;0;1445;1171;1445;1171;0;0;0;0;Light Italic
+
+File:Arimo Italic for Powerline.ttf
+2;1
+Arimo for Powerline
+0;ArimoForPowerline-Italic;2;5;5;2;65535;905;211;32;0;3460;1116;3460;1116;0;0;0;0;Italic
+
+File:Ubuntu Mono derivative Powerline Bold Italic.ttf
+2;1
+Ubuntu Mono derivative Powerline
+0;UbuntuMonoDerivativePowerline-BoldItalic;2;8;5;1;65535;830;170;150;0;994;1000;994;1000;0;0;0;0;Bold Italic
+
+File:Meslo LG S DZ Bold Italic for Powerline.ttf
+2;1
+Meslo LG S DZ for Powerline
+0;MesloLGSDZForPowerline-BoldItalic;2;8;5;1;65535;977;284;189;0;1240;1261;1240;1261;0;0;0;0;Bold Italic
+
+File:Monofur Italic for Powerline.ttf
+2;1
+monofur for Powerline
+0;MonofuritalicForPowerline;2;5;5;1;65535;843;218;159;0;787;1061;787;1061;0;0;0;0;italic
+
+File:Meslo LG L Bold Italic for Powerline.ttf
+2;1
+Meslo LG L for Powerline
+0;MesloLGLForPowerline-BoldItalic;2;8;5;1;65535;1123;431;233;0;1240;1554;1240;1554;0;0;0;0;Bold Italic
+
+File:Source Code Pro for Powerline.otf
+2;1
+Source Code Pro for Powerline
+0;SourceCodeProForPowerline-Regular;0;5;5;1;65535;984;273;188;0;986;1257;986;1257;0;0;0;65536;Regular
+
+File:Roboto Mono Medium for Powerline.ttf
+2;1
+Roboto Mono Medium for Powerline
+0;RobotoMonoForPowerline-Medium;0;6;5;2;65535;927;244;175;0;1457;1171;1457;1171;0;0;0;0;Medium
+
+File:Source Code Pro Powerline BlackItalic.otf
+2;1
+Source Code Pro Black
+0;SourceCodeProForPowerline-BlackIt;2;10;5;1;65535;984;273;188;0;1116;1257;1116;1257;0;0;0;65536;Black Italic
+
+File:Meslo LG L Regular for Powerline.ttf
+2;1
+Meslo LG L for Powerline
+0;MesloLGLForPowerline-Regular;0;5;5;1;65535;1123;431;233;0;1060;1554;1060;1554;0;0;0;0;Regular
+
+File:Source Code Pro Black for Powerline.otf
+2;1
+Source Code Pro Black
+0;SourceCodeProForPowerline-Black;0;10;5;1;65535;984;273;188;0;1028;1257;1028;1257;0;0;0;65536;Black
+
+File:Roboto Mono Light for Powerline.ttf
+2;1
+Roboto Mono Light for Powerline
+0;RobotoMonoForPowerline-Light;0;3;5;2;65535;927;244;175;0;1511;1171;1511;1171;0;0;0;0;Light
+
+File:SpaceMono-BoldItalic.ttf
+2;1
+Space Mono
+0;SpaceMono-BoldItalic;2;8;5;1;65535;1120;361;222;0;855;1481;855;1481;0;0;0;0;Bold Italic
+
+File:Meslo LG L Italic for Powerline.ttf
+2;1
+Meslo LG L for Powerline
+0;MesloLGLForPowerline-Italic;2;5;5;1;65535;1123;431;233;0;1090;1554;1090;1554;0;0;0;0;Italic
+
+File:Meslo LG S Bold for Powerline.ttf
+2;1
+Meslo LG S for Powerline
+0;MesloLGSForPowerline-Bold;0;8;5;1;65535;977;284;189;0;1204;1261;1204;1261;0;0;0;0;Bold
+
+File:Meslo LG M Italic for Powerline.ttf
+2;1
+Meslo LG M for Powerline
+0;MesloLGMForPowerline-Italic;2;5;5;1;65535;1025;333;203;0;1090;1358;1090;1358;0;0;0;0;Italic
+
+File:FuraMono-Regular Powerline.otf
+2;1
+Fira Mono for Powerline
+0;FiraMonoForPowerline-Regular;0;5;5;2;65535;935;265;180;0;1817;1200;1817;1200;0;0;0;65536;Regular
+
+File:Roboto Mono Thin Italic for Powerline.ttf
+2;1
+Roboto Mono Thin for Powerline
+0;RobotoMonoForPowerline-ThinItalic;2;3;5;2;65535;927;244;175;0;1494;1171;1494;1171;0;0;0;0;Thin Italic
+
+File:FuraMono-Medium Powerline.otf
+2;1
+Fira Mono for Powerline
+0;FiraMonoForPowerline-Medium;0;6;5;1;65535;935;265;180;0;1820;1200;1820;1200;0;0;0;65536;Medium
+
+File:Monofur Bold for Powerline.ttf
+2;1
+monofur for Powerline
+0;MonofurboldForPowerline;0;8;5;2;65535;813;188;150;0;752;1001;752;1001;0;0;0;0;bold
+
+File:Space Mono Bold Italic for Powerline.ttf
+2;1
+Space Mono for Powerline
+0;SpaceMonoForPowerline-BoldItalic;2;8;5;1;65535;1120;361;222;0;921;1481;921;1481;0;0;0;0;Bold Italic
+
+File:Hack-Italic.ttf
+2;1
+Hack
+0;Hack-Italic;2;5;5;1;65535;928;235;174;0;1514;1163;1514;1163;0;0;0;8;Italic
+
+File:Source Code Pro Powerline LightItalic.otf
+2;1
+Source Code Pro Light
+0;SourceCodeProForPowerline-LightIt;2;3;5;1;65535;984;273;188;0;1088;1257;1088;1257;0;0;0;65536;Light Italic
+
+File:Tinos for Powerline.ttf
+2;1
+Tinos for Powerline
+0;TinosForPowerline;0;5;5;2;65535;891;216;42;0;3339;1107;3339;1107;0;0;0;0;Regular
+
+File:Anonymice Powerline Bold Italic.ttf
+2;1
+Anonymice Powerline
+0;AnonymicePowerline-BoldItalic;2;8;5;1;65535;817;182;149;0;807;999;807;999;0;0;0;0;Bold Italic
+
+File:Source Code Pro Powerline BoldItalic.otf
+2;1
+Source Code Pro for Powerline
+0;SourceCodeProForPowerline-BoldIt;2;8;5;1;65535;984;273;188;0;1110;1257;1110;1257;0;0;0;65536;Bold Italic
+
+File:Inconsolata-dz for Powerline.otf
+2;1
+Inconsolata-dz for Powerline
+0;InconsolataForPowerline-dz;0;6;5;1;65535;967;205;200;0;662;1172;662;1172;0;0;0;65544;dz
+
+File:Hack-BoldItalic.ttf
+2;1
+Hack
+0;Hack-BoldItalic;2;8;5;1;65535;928;235;174;0;1588;1163;1588;1163;0;0;0;8;Bold Italic
+
+File:Inconsolata-g for Powerline.otf
+2;1
+Inconsolata-g for Powerline
+0;InconsolataForPowerline-g;0;6;5;1;65535;967;205;200;0;662;1172;662;1172;0;0;0;65544;g
+
+File:Tinos Bold Italic for Powerline.ttf
+2;1
+Tinos for Powerline
+0;TinosForPowerline-BoldItalic;2;8;5;2;65535;891;216;42;0;3339;1107;3339;1107;0;0;0;0;Bold Italic
+
+File:Hack-Bold.ttf
+2;1
+Hack
+0;Hack-Bold;0;8;5;1;65535;928;235;174;0;1474;1163;1474;1163;0;0;0;8;Bold
+
+File:Source Code Pro Powerline MediumItalic.otf
+2;1
+Source Code Pro Medium
+0;SourceCodeProForPowerline-MediumIt;2;6;5;1;65535;984;273;188;0;1100;1257;1100;1257;0;0;0;65536;Medium Italic
+
+File:3270SemiNarrow.ttf
+2;1
+IBM 3270 Semi-Narrow
+0;3270SemiNarrow;0;6;5;1;65535;802;200;90;0;539;1002;539;1002;0;0;0;0;Medium
+
+File:Roboto Mono Bold for Powerline.ttf
+2;1
+Roboto Mono for Powerline
+0;RobotoMonoForPowerline-Bold;0;8;5;2;65535;927;244;175;0;1752;1171;1752;1171;0;0;0;0;Bold
+
+File:Hack-Regular.ttf
+2;1
+Hack
+0;Hack-Regular;0;5;5;1;65535;928;235;174;0;1146;1163;1146;1163;0;0;0;8;Regular
+
+File:FuraMono-Bold Powerline.otf
+2;1
+Fira Mono for Powerline
+0;FiraMonoForPowerline-Bold;0;8;5;1;65535;935;265;180;0;1826;1200;1826;1200;0;0;0;65536;Bold
+
+File:Source Code Pro Powerline Italic.otf
+2;1
+Source Code Pro for Powerline
+0;SourceCodeProForPowerline-It;2;5;5;1;65535;984;273;188;0;1096;1257;1096;1257;0;0;0;65536;Italic
+
+File:Source Code Pro Powerline SemiboldItalic.otf
+2;1
+Source Code Pro Semibold
+0;SourceCodeProForPowerline-SemiboldIt;2;7;5;1;65535;984;273;188;0;1103;1257;1103;1257;0;0;0;65536;Semibold Italic
+
+File:SpaceMono-Bold.ttf
+2;1
+Space Mono
+0;SpaceMono-Bold;0;8;5;1;65535;1120;361;222;0;711;1481;711;1481;0;0;0;0;Bold
+
+File:Meslo LG M DZ Regular for Powerline.ttf
+2;1
+Meslo LG M DZ for Powerline
+0;MesloLGMDZForPowerline-Regular;0;5;5;1;65535;1025;333;203;0;1060;1358;1060;1358;0;0;0;0;Regular
+
+File:Arimo Bold Italic for Powerline.ttf
+2;1
+Arimo for Powerline
+0;ArimoForPowerline-BoldItalic;2;8;5;2;65535;905;211;32;0;3273;1116;3273;1116;0;0;0;0;Bold Italic
+
+File:Meslo LG M Regular for Powerline.ttf
+2;1
+Meslo LG M for Powerline
+0;MesloLGMForPowerline-Regular;0;5;5;1;65535;1025;333;203;0;1060;1358;1060;1358;0;0;0;0;Regular
+
+File:SpaceMono-Regular.ttf
+2;1
+Space Mono
+0;SpaceMono-Regular;0;5;5;1;65535;1120;361;222;0;620;1481;620;1481;0;0;0;0;Regular
+
+File:Arimo Bold for Powerline.ttf
+2;1
+Arimo for Powerline
+0;ArimoForPowerline-Bold;0;8;5;2;65535;905;211;32;0;3277;1116;3277;1116;0;0;0;0;Bold
+
+File:Go Mono Bold for Powerline.ttf
+2;1
+Go Mono for Powerline
+0;GoMonoForPowerline-Bold;0;7;5;1;65535;944;210;173;0;665;1154;665;1154;0;0;0;0;Bold
+
+File:Space Mono Bold for Powerline.ttf
+2;1
+Space Mono for Powerline
+0;SpaceMonoForPowerline-Bold;0;8;5;1;65535;1120;361;222;0;795;1481;795;1481;0;0;0;0;Bold
+
+File:Tinos Bold for Powerline.ttf
+2;1
+Tinos for Powerline
+0;TinosForPowerline-Bold;0;8;5;2;65535;891;216;42;0;3339;1107;3339;1107;0;0;0;0;Bold
+
+File:Cousine Bold Italic for Powerline.ttf
+2;1
+Cousine for Powerline
+0;CousineForPowerline-BoldItalic;2;8;5;1;65535;832;300;169;0;1272;1132;1272;1132;0;0;0;0;Bold Italic
+
+File:Monofur for Powerline.ttf
+2;1
+monofur for Powerline
+0;MonofurForPowerline;0;5;5;1;65535;813;188;150;0;554;1001;554;1001;0;0;0;0;Regular
+
+File:Tinos Italic for Powerline.ttf
+2;1
+Tinos for Powerline
+0;TinosForPowerline-Italic;2;5;5;2;65535;891;216;42;0;3339;1107;3339;1107;0;0;0;0;Italic
+
+File:Ubuntu Mono derivative Powerline Bold.ttf
+2;1
+Ubuntu Mono derivative Powerline
+0;UbuntuMonoDerivativePowerline-Bold;0;8;5;1;65535;830;170;150;0;1051;1000;1051;1000;0;0;0;0;Bold
+
+FontCacheDirectory:1513606097:/usr/share/fonts/cantarell
+File:Cantarell-BoldOblique.otf
+2;1
+Cantarell
+0;Cantarell-BoldOblique;1;8;5;2;65535;964;293;188;0;1697;1257;1697;1257;0;0;0;65536;BoldOblique
+
+File:Cantarell-Oblique.otf
+2;1
+Cantarell
+0;Cantarell-Oblique;1;5;5;2;65535;964;293;188;0;1478;1257;1478;1257;0;0;0;65536;Oblique
+
+File:Cantarell-Regular.otf
+2;1
+Cantarell
+0;Cantarell-Regular;0;5;5;2;65535;964;293;188;0;1445;1257;1445;1257;0;0;0;65536;Regular
+
+File:Cantarell-Bold.otf
+2;1
+Cantarell
+0;Cantarell-Bold;0;8;5;2;65535;964;293;188;0;1645;1257;1645;1257;0;0;0;65536;Bold
+
+FontCacheDirectory:1513606103:/usr/share/fonts/OTF
+File:SyrCOMNisibinOutline.otf
+2;1
+Estrangelo Nisibin Outline
+0;EstrangeloNisibinOutline;0;5;5;2;65535;781;316;164;0;1010;1097;1010;1097;0;0;0;12;Regular
+
+File:SyrCOMCtesiphon.otf
+2;1
+East Syriac Ctesiphon
+0;EastSyriacCtesiphon;0;5;5;2;65535;761;323;162;0;1000;1084;1000;1084;0;0;0;12;Regular
+
+File:SyrCOMEdessa.otf
+2;1
+Estrangelo Edessa
+0;EstrangeloEdessa;0;5;5;2;65535;700;299;149;0;1321;999;1321;999;0;0;0;0;Regular
+
+File:SyrCOMAdiabene.otf
+2;1
+East Syriac Adiabene
+0;EastSyriacAdiabene;0;5;5;2;65535;761;349;166;0;1000;1110;1000;1110;0;0;0;12;Regular
+
+File:SyrCOMAntioch.otf
+2;1
+Estrangelo Antioch
+0;EstrangeloAntioch;0;5;5;2;65535;761;316;161;0;1374;1077;1374;1077;0;0;0;12;Regular
+
+File:SyrCOMTalada.otf
+2;1
+Estrangelo Talada
+0;EstrangeloTalada;0;5;5;2;65535;761;316;161;0;1795;1077;1795;1077;0;0;0;12;Regular
+
+File:SyrCOMBatnanBold.otf
+2;1
+Serto Batnan
+0;SertoBatnanBold;0;8;5;2;65535;761;316;161;0;1243;1077;1243;1077;0;0;0;12;Bold
+
+File:GohaTibebZemen.otf
+2;1
+Goha-Tibeb Zemen
+0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1212;1000;1212;1000;0;0;0;65536;Regular
+
+File:SyrCOMBatnan.otf
+2;1
+Serto Batnan
+0;SertoBatnan;0;5;5;2;65535;761;316;161;0;1141;1077;1141;1077;0;0;0;12;Regular
+
+File:SyrCOMJerusalem.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalem;0;5;5;2;65535;761;316;161;0;1180;1077;1180;1077;0;0;0;12;Regular
+
+File:SyrCOMKharput.otf
+2;1
+Serto Kharput
+0;SertoKharput;0;5;5;2;65535;761;328;163;0;1132;1089;1132;1089;0;0;0;12;Regular
+
+File:SyrCOMUrhoy.otf
+2;1
+Serto Urhoy
+0;SertoUrhoy;0;5;5;2;65535;761;360;168;0;1158;1121;1158;1121;0;0;0;12;Regular
+
+File:SyrCOMJerusalemBold.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalemBold;0;8;5;2;65535;761;316;161;0;1255;1077;1255;1077;0;0;0;12;Bold
+
+File:SyrCOMJerusalemItalic.otf
+2;1
+Serto Jerusalem
+0;SertoJerusalemItalic;2;5;5;2;65535;761;316;161;0;1353;1077;1353;1077;0;0;0;12;Italic
+
+File:SyrCOMMidyat.otf
+2;1
+Estrangelo Midyat
+0;EstrangeloMidyat;0;5;5;2;65535;761;316;161;0;1231;1077;1231;1077;0;0;0;12;Regular
+
+File:SyrCOMMalankara.otf
+2;1
+Serto Malankara
+0;SertoMalankara;0;5;5;2;65535;761;355;167;0;1009;1116;1009;1116;0;0;0;12;Regular
+
+File:SyrCOMQenNeshrin.otf
+2;1
+Estrangelo Quenneshrin
+0;EstrangeloQuenneshrin;0;5;5;2;65535;761;349;166;0;1000;1110;1000;1110;0;0;0;12;Regular
+
+File:SyrCOMMardin.otf
+2;1
+Serto Mardin
+0;SertoMardin;0;5;5;2;65535;761;316;161;0;1146;1077;1146;1077;0;0;0;12;Regular
+
+File:SyrCOMMardinBold.otf
+2;1
+Serto Mardin
+0;SertoMardinBold;0;8;5;2;65535;761;316;161;0;1168;1077;1168;1077;0;0;0;12;Bold
+
+File:SyrCOMUrhoyBold.otf
+2;1
+Serto Urhoy
+0;SertoUrhoyBold;0;8;5;2;65535;761;360;168;0;1170;1121;1170;1121;0;0;0;12;Bold
+
+File:SyrCOMNisibin.otf
+2;1
+Estrangelo Nisibin
+0;EstrangeloNisibin;0;5;5;2;65535;761;316;161;0;1000;1077;1000;1077;0;0;0;12;Regular
+
+File:SyrCOMJerusalemOutline.otf
+2;1
+Serto Jerusalem Outline
+0;SertoJerusalemOutline;0;5;5;2;65535;781;316;164;0;1275;1097;1275;1097;0;0;0;12;Regular
+
+File:SyrCOMTurAbdin.otf
+2;1
+Estrangelo TurAbdin
+0;EstrangeloTurAbdin;0;5;5;2;65535;761;316;161;0;1020;1077;1020;1077;0;0;0;12;Regular
+

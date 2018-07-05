@@ -1,0 +1,4 @@
+2018/07/04-14:21:07.011 825 Reusing MANIFEST /home/anka/.config/google-chrome/Default/Service Worker/Database/MANIFEST-000001
+2018/07/04-14:21:07.011 825 Recovering log #3
+2018/07/04-14:21:09.321 825 (ignoring error) /home/anka/.config/google-chrome/Default/Service Worker/Database/000003.log: dropping 120 bytes; Corruption: missing start of fragmented record(2)
+2018/07/04-14:21:09.322 825 Reusing old log /home/anka/.config/google-chrome/Default/Service Worker/Database/000003.log 

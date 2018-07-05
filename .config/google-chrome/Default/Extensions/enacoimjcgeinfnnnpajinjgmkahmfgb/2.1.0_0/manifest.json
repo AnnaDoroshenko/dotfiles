@@ -1,0 +1,39 @@
+{
+   "app": {
+      "background": {
+         "persistent": false,
+         "scripts": [ "eventPage.js" ]
+      }
+   },
+   "author": "Cleanflight Project",
+   "default_locale": "en",
+   "description": "Crossplatform configuration tool for Cleanflight flight control system",
+   "icons": {
+      "128": "images/cf/cf_icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn78lctmOHVZShiQ8N3Va2xTBTb6pTbH0/qX0EqJJUJv63AoIoLu5KIHGroQ7EK28WdNOli6vIgBENTvHlgb4O3PvVtbzRBdrTm8AxdzIB4kgdJe4TNZ1A/l/CF0MK56tyQ0m/NzDR8et1WQXC7saROQCOs8+yTcsCezFhsldYx80IKvEp95CbQjsOM/QNzyEE/AZIV3aRxa/OOPZvzhfMUzjWcm2Zgk0vlxl6phw/H/ncXP64uJslduTMbYnJ23AT9KVVn+R/nrU7LbR38tmAPJXSv4bG02gj6JC0ah5a1+7OwdjqFVzv+NvTzhSjtRcUTldEy0MmsP+OGYWuMBQ1wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "Cleanflight - Configurator",
+   "offline_enabled": true,
+   "permissions": [ "https://www.google-analytics.com/", "https://maps.googleapis.com/*", "https://*.github.com/", "https://*.githubusercontent.com/", "http://*.cleanflight.com/", "https://*.amazonaws.com/", "https://cleanflight.slack.com/*", "serial", "usb", "storage", "fileSystem", "fileSystem.write", "fileSystem.retainEntries", "notifications", "alwaysOnTopWindows", {
+      "usbDevices": [ {
+         "productId": 57105,
+         "vendorId": 1155
+      } ]
+   }, "webview" ],
+   "short_name": "Cleanflight",
+   "sockets": {
+      "tcp": {
+         "connect": "*:*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0",
+   "webview": {
+      "partitions": [ {
+         "accessible_resources": [ "tabs/map.html", "tabs/map.js", "/images/icons/cf_icon_position.png" ],
+         "name": "map"
+      } ]
+   }
+}

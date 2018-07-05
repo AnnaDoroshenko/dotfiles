@@ -1,0 +1,15 @@
+2018/07/04-14:21:30.417 970 Reusing MANIFEST /home/anka/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2018/07/04-14:21:30.418 970 Recovering log #139
+2018/07/04-14:21:30.547 970 Reusing old log /home/anka/.config/google-chrome/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000139.log 
+2018/07/04-14:26:46.842 1515 Level-0 table #143: started
+2018/07/04-14:26:47.792 1515 Level-0 table #143: 1940236 bytes OK
+2018/07/04-14:26:48.092 1515 Delete type=0 #139
+2018/07/04-14:26:48.131 1515 Compacting 4@0 + 1@1 files
+2018/07/04-14:26:49.406 1515 Generated table #144@0: 5 keys, 2167831 bytes
+2018/07/04-14:26:49.451 1515 Compacted 4@0 + 1@1 files => 2167831 bytes
+2018/07/04-14:26:49.533 1515 compacted to: files[ 0 1 0 0 0 0 0 ]
+2018/07/04-14:26:49.533 1515 Delete type=2 #134
+2018/07/04-14:26:49.663 1515 Delete type=2 #143
+2018/07/04-14:26:49.664 1515 Delete type=2 #131
+2018/07/04-14:26:49.670 1515 Delete type=2 #140
+2018/07/04-14:26:49.688 1515 Delete type=2 #137

@@ -1,0 +1,83 @@
+! Disable the scrollbar
+URxvt.scrollStyle: rxvt
+URxvt.scrollBar: false
+
+!URxvt.font: xft:Source Code Pro for
+!Powerline:size=8:antialias=true,\xft:FreeSerif:style=Regular
+!URxvt.font: xft:Bitstream Vera Sans Mono:size=10
+URxvt.font: xft:mononoki Nerd Font Mono:size=9:antialias=true
+
+URxvt.letterSpace: -1
+
+! Extensions
+!URxvt.perl-ext-common: selection-to-clipboard,resize-font
+URxvt.perl-ext-common: default,url-select,keyboard-select,resize-font,matcher,matcher
+URxvt.colorUL:         #7cfc00
+! url-select
+URxvt.keysym.M-u:      perl:url-select:select_next
+URxvt.url-select.launcher:   google-chrome-stable
+URxvt.url-select.underline:  true
+! keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s:      perl:keyboard-select:search
+
+! Cursor
+URxvt.cursorBlink: true
+URxvt.cursorColor: #fffb76
+
+! Feal transparency does not work - ??
+!URxvt*depth: 32
+!URxvt*backgrount: rgba:0000/0000/0200/c800
+! Fake transparency
+URxvt*transparent: true
+URxvt*shading: 30
+URxvt*background: #000000
+URxvt*foreground: #fff700
+
+URvxt.intensityStyles: false
+!URvxt.font:            xft:monospace:size:11
+
+! Redefine some keybindings for resize-font
+URxvt.keysym.C-plus: resize-font:reset
+URxvt.keysym.C-equal: resize-font:bigger
+!URxvt.resize-font.smaller: C-plus
+!URxvt.resize-font.bigger: C-equal
+
+! Disable default Ctrl+Shift keybinding
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+
+rofi.color-enabled:	true
+! State:            'bg',    'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal:	#111111, #819396, #222222,   #ff4933,  #6600cc
+rofi.color-active:	#002b37, #008ed4, #003643,   #008ed4,  #66c6ff
+rofi.color-urgent:	#002b37, #da4281, #003643,   #008ed4,  #890661
+
+! % value of transparency:
+! 100% — FF  95% — F2  90% — E6  85% — D9  80% — CC  75% — BF
+! 70% — B3   65% — A6  60% — 99  55% — 8C  50% — 80  45% — 73
+! 40% — 66   35% — 59  30% — 4D  25% — 40  20% — 33  15% — 26
+! 10% — 1A   5% — 0D   0% — 00
+!                   'background', 'border', 'separator'
+rofi.color-window: 	 #B3000000,   #000000,  #000000
+
+rofi.fake-transparency:	true
+rofi.lines:		3
+rofi.eh:        2
+rofi.bw:		0
+!rofi.opacity:		"85"
+rofi.hide-scrollbar:	true
+rofi.width:		100
+rofi.padding:   450
+!rofi.font:      "mononoki Nerd Font Mono Italic 14"
+!rofi.font:      "mononoki Nerd Font Mono 14"
+
+!rofi.bc: "#2f343f" 
+!rofi.bg: "#2f343f"
+!rofi.fg: "#f3f4f5"
+!rofi.hlbg: "#2f343f"
+!rofi.hlfg: "#9575cd"
