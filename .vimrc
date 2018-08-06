@@ -58,16 +58,16 @@ let g:airline_powerline_fonts=1
 let g:airline#extensions#tmuxline#enabled = 0
 set noshowmode
 
-" For the Solarized colorscheme
-syntax enable
-set background=dark
-let g:solarized_termcolors=256
-"let g:solarized_termtrans=1 " for transparent background
-colorscheme solarized
-
-" Personal changes to colors
-highlight Comment ctermfg=240
-highlight Normal ctermbg=232
+" " For the Solarized colorscheme
+" syntax enable
+" set background=dark
+" let g:solarized_termcolors=256
+" "let g:solarized_termtrans=1 " for transparent background
+" colorscheme solarized
+"
+" " Personal changes to colors
+" highlight Comment ctermfg=240
+" highlight Normal ctermbg=232
 
 " let g:ale_cpp_gcc_options = ' -std=c++17 '
 "
@@ -196,6 +196,17 @@ set smartcase
 
 " To enable colors
 syntax enable
+
+" For the Solarized colorscheme
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+"let g:solarized_termtrans=1 " for transparent background
+colorscheme solarized
+
+" Personal changes to colors
+highlight Comment ctermfg=240
+highlight Normal ctermbg=232
 
 " to fix the delay when exiting Insert mode
 set timeoutlen=1000 ttimeoutlen=0
