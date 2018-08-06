@@ -22,7 +22,12 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py', 'for': '' }
 " Plug 'tpope/vim-surround'
 " Plug 'vim-scripts/ruscmd'
 Plug 'tomtom/tcomment_vim' " comments with Ctrl+//
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
+Plug 'edkolev/tmuxline.vim'
+Plug 'neomake/neomake' "async linting
+Plug 'garbas/vim-snipmate' " This and the following two: for snippets
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
 
 call plug#end()
 " ----------------------------------------------------------------------------
@@ -54,21 +59,57 @@ let g:airline#extensions#tmuxline#enabled = 0
 set noshowmode
 
 " For the Solarized colorscheme
-" syntax enable
-" set background=dark
-" let g:solarized_termcolors=256
-" "let g:solarized_termtrans=1 " for transparent background
-" colorscheme solarized
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+"let g:solarized_termtrans=1 " for transparent background
+colorscheme solarized
 
-let g:ale_cpp_gcc_options = ' -std=c++17 '
+" Personal changes to colors
+highlight Comment ctermfg=240
+highlight Normal ctermbg=232
 
-let g:ale_sign_error = '×'
-let g:ale_sign_warning = 'W'
-let g:airline#extensions#ale#enabled = 1
-let g:ale_lint_on_text_changed = 'never'
-let g:ale_set_quickfix = 1
-let g:ale_open_list = 1
-let g:ale_list_window_size = 6
+" let g:ale_cpp_gcc_options = ' -std=c++17 '
+"
+" let g:ale_sign_error = '×'
+" let g:ale_sign_warning = 'W'
+" let g:airline#extensions#ale#enabled = 1
+" let g:ale_lint_on_text_changed = 'never'
+" let g:ale_set_quickfix = 1
+" let g:ale_open_list = 1
+" let g:ale_list_window_size = 6
+
+" Compile (run linter)
+noremap <silent> '' :Neomake<CR>
+
+" Auto-close quickfix on exit
+autocmd BufWinEnter quickfix nnoremap <silent> <buffer>
+            \   q :cclose<cr>:lclose<cr>
+autocmd BufEnter * if (winnr('$') == 1 && &buftype ==# 'quickfix' ) |
+            \   bd|
+            \   q | endif"
+
+" Run Neomake on every read and write
+autocmd! BufReadPost,BufWritePost * Neomake
+" I don't use the following because it ignores buffer write with no changes
+" call neomake#configure#automake('rw')
+" Open the list automatically
+let g:neomake_open_list = 2
+let g:neomake_list_height = 6
+" To see possible values for texthl, see :highlight
+let g:neomake_warning_sign = {
+    \ 'text': 'W',
+    \ 'texthl': 'CursorLineNr',
+    \ }
+let g:neomake_error_sign = {
+    \ 'text': '×',
+    \ 'texthl': 'WarningMsg',
+    \ }
+" Cool possible chars: "⚠️", "✖️", "×"
+" let g:neomake_cpp_enable_markers=['gcc']
+let g:neomake_cpp_gcc_args = ['-Wall', '-Wextra', '-Wno-unused-parameter', '-std=c++17']
+
+let g:tmuxline_preset = 'tmux'
 
 " Comments
 vnoremap <C-/> gc
@@ -141,7 +182,7 @@ set display+=lastline
 if exists('+colorcolumn')
   set colorcolumn=80
 else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+  au BufWinEnter * let w:m1=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
