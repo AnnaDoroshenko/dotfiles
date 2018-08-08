@@ -107,7 +107,7 @@ let g:neomake_error_sign = {
     \ }
 " Cool possible chars: "⚠️", "✖️", "×"
 " let g:neomake_cpp_enable_markers=['gcc']
-let g:neomake_cpp_gcc_args = ['-Wall', '-Wextra', '-Wno-unused-parameter', '-std=c++17']
+let g:neomake_cpp_gcc_args = ['-Wall', '-Wextra', '-Wno-unused-parameter', '-std=c++17', '-fsyntax-only']
 
 let g:tmuxline_preset = 'tmux'
 
