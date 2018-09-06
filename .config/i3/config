@@ -138,6 +138,8 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 #assign [class="<CLASS>"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="TelegramDesktop"] $ws3
+assign [class="slack"] $ws4
+assign [class="wps"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
