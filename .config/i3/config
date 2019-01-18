@@ -225,10 +225,8 @@ bindsym $alt+Control+3    exec --no-startup-id ~/.scripts/tools/chkbd ua
 bindsym $alt+Control+4    exec --no-startup-id ~/.scripts/tools/chkbd de
 
 # Bindings for screenshots
-# bindsym Print exec --no-startup-id scrot -q 85 ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
-# bindsym Shift+Print exec --no-startup-id scrot -q 85 -s ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
-bindsym Print exec --no-startup-id maim ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
-bindsym Shift+Print exec --no-startup-id maimpick ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
+bindsym Print exec --no-startup-id scrot -q 85 ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
+bindsym Shift+Print exec --no-startup-id scrot -q 85 -s ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
 
 # color defines for zenburn styled i3
 set $bg     #2c2c2e
