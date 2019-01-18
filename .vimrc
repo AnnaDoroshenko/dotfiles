@@ -28,6 +28,8 @@ Plug 'neomake/neomake' "async linting
 Plug 'garbas/vim-snipmate' " This and the following two: for snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
+" Russian mode support
+Plug 'vim-scripts/ruscmd'
 
 call plug#end()
 " ----------------------------------------------------------------------------

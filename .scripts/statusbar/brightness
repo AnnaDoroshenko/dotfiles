@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+brightness=$(echo $(xbacklight) | sed 's/[.].*//')
+color=#ff9a39
+icon=""
+
+printf "<span color='%s'><b>%s %s%%</b></span>" "$color" "$icon" "$brightness"

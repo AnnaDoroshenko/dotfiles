@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+date=$(date '+%d %b (%a) %Y %H:%M')
+color=#51afe1
+
+printf "<span color='$color'><b>羽 $date  </b></span>"

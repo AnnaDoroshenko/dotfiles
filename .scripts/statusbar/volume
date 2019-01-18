@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+vol=$(pactl list sinks | grep "Volume: front-left:" | awk '{print $5}' | sed 's/%//' | tr '\n' ' ' | awk '{print $(NF)}')
+vol_muted=$(pactl list sinks | grep "Mute: " | awk '{print $2}' | tr '\n' ' ' | awk '{print $(NF)}')
+
+if [[ "$vol_muted" == "no" ]]; then
+    icon=""
+    color=#5ae492
+elif [[ "$vol_muted" == "yes" ]]; then
+    icon=""
+    color=#dc0000
+fi
+
+printf "<span color='%s'><b>%s %s%%</b></span>" "$color" "$icon" "$vol"

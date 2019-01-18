@@ -1,0 +1,22 @@
+command=~/.scripts/statusbar/$BLOCK_NAME
+separator_block_width=15
+markup=pango
+
+[keyboard]
+interval=once
+signal=1
+
+[brightness]
+interval=once
+signal=10
+
+[volume]
+interval=once
+signal=10
+
+[battery]
+command=~/.scripts/statusbar/battery BAT0
+interval=5
+
+[clock]
+interval=20

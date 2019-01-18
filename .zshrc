@@ -7,10 +7,11 @@
 
 # Anka's aliases
 alias acc='acpi -i'
-alias vimrc='vim ~/.vimrc'
-alias zshrc='vim ~/.zshrc'
+alias vimrc='vim ~/data/dotfiles/.vimrc'
+alias zshrc='vim ~/data/dotfiles/.zshrc'
 alias cp='rsync -avh'
 alias cppr='rync -avh --progress'
+alias rr='ranger'
 
 alias mnt='sudo mount -o uid=anka,gid=users,fmask=111,dmask=000 /dev/sdc1 /mnt/External'
 alias umnt='sudo umount /dev/sdc1'
@@ -25,6 +26,8 @@ alias deu='cd ~/data/Deutsch'
 alias deu1='djview ~/data/Deutsch/GER_Kamyanova_Praktichesky_kurs_nemetskogo_yazyka.djvu'
 alias deu2='djview ~/data/Deutsch/GER_20_Практический_курс_немецкого.djvu'
 alias tel='cd ~/Downloads/Telegram\ Desktop'
+
+alias prp='pipenv run python'
 
 
 
@@ -96,7 +99,8 @@ HIST_STAMPS="dd/mm/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  svn
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -134,3 +138,6 @@ export LANG=en_US.UTF-8
 
 autoload -Uz promptinit
 promptinit
+
+eval "$(dircolors ~/.dircolors)";
+eval "$(pipenv --completion)";

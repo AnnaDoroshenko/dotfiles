@@ -1,0 +1,9 @@
+#!/bin/sh
+
+case "$1" in
+    u*) pactl set-sink-volume @DEFAULT_SINK@ +"$2"% ;;
+    d*) pactl set-sink-volume @DEFAULT_SINK@ -"$2"% ;;
+    m*) pactl set-sink-mute @DEFAULT_SINK@ toggle
+esac
+
+pkill -RTMIN+10 i3blocks
