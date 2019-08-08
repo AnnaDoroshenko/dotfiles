@@ -31,6 +31,7 @@ Plug 'tomtom/tlib_vim'
 " Russian mode support
 Plug 'vim-scripts/ruscmd'
 
+
 call plug#end()
 " ----------------------------------------------------------------------------
 
@@ -72,7 +73,7 @@ set noshowmode
 " highlight Normal ctermbg=232
 
 " let g:ale_cpp_gcc_options = ' -std=c++17 '
-"
+
 " let g:ale_sign_error = '×'
 " let g:ale_sign_warning = 'W'
 " let g:airline#extensions#ale#enabled = 1
@@ -80,6 +81,8 @@ set noshowmode
 " let g:ale_set_quickfix = 1
 " let g:ale_open_list = 1
 " let g:ale_list_window_size = 6
+"
+" let b:ale_linters = ['flake8', 'pylint']
 
 " Compile (run linter)
 noremap <silent> '' :Neomake<CR>
@@ -91,8 +94,10 @@ autocmd BufEnter * if (winnr('$') == 1 && &buftype ==# 'quickfix' ) |
             \   bd|
             \   q | endif"
 
+" Place language name here
+let neomake_blacklist = ['tex']
 " Run Neomake on every read and write
-autocmd! BufReadPost,BufWritePost * Neomake
+autocmd! BufReadPost,BufWritePost * if index(neomake_blacklist, &ft) < 0 | Neomake
 " I don't use the following because it ignores buffer write with no changes
 " call neomake#configure#automake('rw')
 " Open the list automatically
@@ -125,6 +130,10 @@ nnoremap <C-/> gcc
 if &t_Co == 8 && $TERM !~# '^linux\|^Eterm'
   set t_Co=16
 endif
+
+" Do not conceal hidden characters:
+autocmd FileType json setlocal conceallevel=0
+let g:indentLine_fileTypeExclude = ['json']
 
 " Display Tab and Eol chars
 set list

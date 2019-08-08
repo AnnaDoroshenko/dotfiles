@@ -28,7 +28,8 @@ alias deu2='djview ~/data/Deutsch/GER_20_Практический_курс_не�
 alias tel='cd ~/Downloads/Telegram\ Desktop'
 
 alias prp='pipenv run python'
-
+alias as='~/data/android-studio/bin/studio.sh'
+alias srcnvm='source /usr/share/nvm/init-nvm.sh'
 
 
 
@@ -141,3 +142,5 @@ promptinit
 
 eval "$(dircolors ~/.dircolors)";
 eval "$(pipenv --completion)";
+
+export PATH=$HOME/Android/Sdk/platform-tools:/Android/Sdk/tools:$PATH 
