@@ -1,0 +1,255 @@
+clear
+pwd - print working directory
+cd - change direction
+
+ls/dir - in current directory list of files
+ls -al 
+ls -alri (r - reverse, i - date)
+lsblk - shows list of all storage devices
+man - mannual
+rm - remove 
+
+xprop+click on app - to know info about it (perticulary, class)
+
+grep - search Globally for lines matching the Regular Expression, and Print them
+
+blkid - show attributes of block devices on the system
+
+df -h (-k/P/t/file...) - free space in KB, MB, or GB (other ways)
+
+chmod [option] mode[,mode] file1 [file2] - change mode (change the access 
+                                           permission to file system objects)
+chown - change owner of file system files, directories
+        (e.g. :chown root var/run/httpd.pid)
+
+--- Internet ---
+ping [site] (8.8.8.8)
+ip a
+wifi-menu
+--- To find a connect to a new Wifi ---
+--- Search
+nmcli device wifi
+--- Connect
+nmcli device connect <SSID> password <PASSWORD>
+---------------------------------------
+
+--- Powerdown ---
+[P(default) == powerdown, -r == reboot]
+shutdown -P +60 [min]
+shutdown -P 1:00 [1 AM]
+shutdown -P now 
+shutdown -c [cancel]
+-----------------
+
+fdisk -l - list of devices and partitions
+fdisk /dev/sda - work with disk (partitions)
+
+mount [partition][directory] (e.g. For flash drives)
+
+mkdir - make directory (create folder)
+
+--- For downloads ---
+pacman/yaourt/trizen -S <package1> <package2> === install
+pacman/yaourt/trizen -Syu == total system update
+pacman/yaourt/trizen -Rns <package> == remove package along with its dependesies
+---------------------
+--- If there is too little memory capacity for downloads (till reloading) ---
+sudo mount -o remount,size=4G,noatime /tmp
+---------------------
+
+--- To create a link ---
+ln -s -T [target] [link_name]
+------------------------
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+--- zip/unzip/unrar archive ---
+--- to compress:
+zip compressed.zip
+--- to compress a directory and its contents
+zip compressed.zip path/to/dir
+--- to uncompress
+unzip compressed.zip
+--- to extract: 
+unrar x compressed.rar
+--- to list:
+unrar l compressed.rar
+-------------------------------
+
+--- To install font manually ---
+- extract zip files
+- mv/cp *.ttf /usr/share/fonts/TTF
+- fc-cache -vf --- reload the font cache
+--------------------------------
+- go to /etc/X11/xorg.conf.d/10-fonts.conf (via sudo -E vim 10-fonts.conf)
+- point there all possible paths to fonts dir
+- move folder with font to /usr/share/fonts/ (for all system)
+- .Xresorses & .config/i3/config
+
+--- mapping commands ---
+help map-modes - to see to control modes the mapping applies to
+
+--- For languages ---
+- uncomment into /etc/locele.gen neccesary language at first (sudo)
+localectl --no-convert set-x-11-keymap us,ru,ua,de pc104 ,,, grp:alt_shift_toggle
+- after pc104 the amount of commas depends on how many they are them in the row
+- ("us,ru,ua,de" >> ,,,)
+---------------------
+
+--- Git credentials ---
+- at home location:
+git config --global credential.helper store
+git config --global user.name "Anna Doroshenko"
+git config --global user.email "annadoroshenko03@gmail.com"
+- At he next prompt git will remember the credentials and
+- store them in the home folder
+------------------------
+
+--- For wps spell check. Adding languages for checking ---
+1/ Download and unzip packages /http://wps-community.org/download/dicts
+2/ mv uk_UA[or another dir] ~/.kingsoft/office6/dicts
+------------------------
+
+--- For youtube downloading ---
+youtube-dl -f 'bestvideo[height<=?720]+bestaudio/best[height<=?720]' <URL>
+For playlists (1-based indexing)
+ youtube-dl -f 'bestvideo[height<=?720]+bestaudio/best[height<=?720]' --playlist-start 17 --playlist-end 30 <URL>
+
+map - recursive
+noremap - non-recursive
+unmap/unmap! - comands to remove the map (can be mapped again later)
+mapclear - to clear all mappings for a particular mode
+
+n - normal only
+v - visual and select
+o - operator-pending
+x - visual only
+s - select only
+i - insert
+c - command-line
+l - all, "Lang-Arg" ??not sure
+map! - apply to isert and command-line
+
+(e.g. nmap K H
+      nnoremap H G
+      nunmap <F6>
+      unmap! <F6>)
+-------------------------
+
+-- Making own QR-codes --
+sudo pacman -S qrencode
+qrencode -s 20 [for size, by defaults is to small] "Any text" -o ~/Pictures/qr.png
+-------------------------
+
+-- Printer Configuration --
+> sudo pacman -S cups
+> sudo systemctl enable org.cups.cupsd.service
+> sudo systemctl start org.cups.cupsd.service
+> sudo systemctl status org.cups.cupsd.service
+> reboot
+> sudo gpasswd -a anka sys
+Download printer driver. For example,
+> trizen -S samsung-unified-driver
+In browser go to localhost:631
+
+---------------------------------------------------------------------
+------------------------------- vim_notes ---------------------------
+:help([cmd])/<F1>
+:e ~/.vimrc
+Ctrl-W  Ctrl-W - to jump to another window
+:[cmd]+<CTRL-D>+<TAB> - to see all possible completions and chose one
+
+j - down
+k - up
+l - left
+h - right
+
+0 - to move to the start of the line
+operator [number] motion
+
+Ctrl-G - to show your location in the file and the file status
+[number of the line]+G - to to line
+
+a/i - insert after/before cursor
+A/I - insert in the beginning/end of line
+w/e/b - move by words
+gg/G - begin/end of file
+[line number]+G - go to line
+r - replace char uder cursor
+R - to replace more than one char
+
+---visual modes---
+v - regular
+V - line-wise
+ctrl+v - v-block
+------------------
+
+yy - copy line under cursor
+p/P - paste (before/after)
+
+v+motion :w [filename] - to save part of file
+:r [filename] - to retrieve and insert the contents of the file
+
+u - undo
+ctrl+r - redo
+
+y+y/w/l/b - copy line/word/letter/word before
+d+d/w/l/b/e/$ - delete (+ into buffer)
+c+c/w/l/b - change
+D - delete till the end of line
+C - change till the end of line
+s - substitute
+S - substitute linewise
+c/d/y+i/a+w/(/p - change/delete/copy inside/around
+% - move by brackets
+
+f+[char] - find
+F+[char] - find reverse
+t+[char] - find until
+T+[char] - find until reverse
+; - repeat search
+
+/ - big search (in file)
+? - big search reverse (in files)
+n - next coincedance forward
+N - next coincedance backward
+Ctrl-O - to go back to where you came from
+Ctrl-I - to go forward
+--- Some option when searching
+     [short(long) option name]
+:set ic(ignorecase)
+     is(incsearch) - show partitial matches for a search phase
+     hls(hlsearch) - highlight all matching phrases
+--- Swich some option off --> 'no'
+:set noic
+     
+:s/old/new - to change the first occurence in current line
+:s/old/new/g - to change all occurences in current line
+:[line number],[line number]s/old/new/g - to change all occurences in the range
+                                          of lines
+:%s/old/new/g - to change every occurence in the whole file
+:%s/old/new/gc - to find every occurence in the whole file 
+                 with a prompt whether to substitute or not
+
+:![command (args)] - to execute exturnal command
+
+----------------------------------------------------------
+----------------- System downloads -----------------------
+i3
+d-menu
+alsa-utils
+zip
+unzip
+vlc
+tldr
+mononoki --font--
+youtube-dl
+
+-----------------------------------------------------------
+----------------- tmux notes ------------------------------
+`d - detach tmux
+`- - split term vertically
+`| - split term horizontally
+alt+h/j/k/l; arrows - move between tmux parts; to extend/narrow some part
+`c - new workspace in tmux
+`, - rename

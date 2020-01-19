@@ -187,7 +187,7 @@ bar {
                 focused_workspace  #18101e #8e737e #18101e
                 active_workspace   #83a598 #83a598 #a89984
                 inactive_workspace #18101e #18101e #8e737e
-                urgent_workspace   #1d2021 #1d2021 #ebdbb2
+                urgent_workspace   #1d2021 #a16f83 #18101e
               }
        status_command i3blocks
        position top
@@ -198,11 +198,11 @@ bar {
 # Launch Polybar
 # exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Add wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper3.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper5.jpg
 
 exec xrdb ~/.Xresources
 
-#bindsym $mod+Shift+z exec i3lock
+# bindsym $mod+Shift+z exec i3lock
 bindsym $mod+Shift+z exec --no-startup-id ~/.config/i3/lock.sh
 bindsym $mod+z exec shutdown now
 
@@ -219,14 +219,16 @@ bindsym $mod+Shift+minus  exec --no-startup-id ~/.scripts/tools/chbacklight down
 
 # Keyboard layout key
 # bindsym ISO_Next_Group    exec pkill -RTMIN+1 i3blocks
-bindsym $alt+Control+1    exec --no-startup-id ~/.scripts/tools/chkbd us
-bindsym $alt+Control+2    exec --no-startup-id ~/.scripts/tools/chkbd ru
-bindsym $alt+Control+3    exec --no-startup-id ~/.scripts/tools/chkbd ua
-bindsym $alt+Control+4    exec --no-startup-id ~/.scripts/tools/chkbd de
+bindsym $alt+1    exec --no-startup-id ~/.scripts/tools/chkbd us
+bindsym $alt+2    exec --no-startup-id ~/.scripts/tools/chkbd ru
+bindsym $alt+3    exec --no-startup-id ~/.scripts/tools/chkbd ua
+bindsym $alt+4    exec --no-startup-id ~/.scripts/tools/chkbd de
 
 # Bindings for screenshots
 bindsym Print exec --no-startup-id scrot -q 85 ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
 bindsym Shift+Print exec --no-startup-id scrot -q 85 -s ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
+# bindsym Print exec --no-startup-id maim ~/Pictures/screenshots/screenshot-"$(date '+%Y-%m-%d--%T').png"
+# bindsym Shift+Print exec --no-startup-id maimpick ~/Pictures/screenshots/screenshot-%Y-%m-%d--%T.png
 
 # color defines for zenburn styled i3
 set $bg     #2c2c2e

@@ -144,3 +144,4 @@ eval "$(dircolors ~/.dircolors)";
 eval "$(pipenv --completion)";
 
 export PATH=$HOME/Android/Sdk/platform-tools:/Android/Sdk/tools:$PATH 
+export PATH=$HOME/.config/composer/vendor/bin:$PATH

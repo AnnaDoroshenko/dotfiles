@@ -21,7 +21,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 20
 ;offset-x = 1%
 ;offset-y = 1%
 ;radius = 6.0
@@ -180,11 +180,11 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label> <bar>
-label = BL
+label =  %percentage%%
 
 bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = #ff
+bar-indicator =
+bar-indicator-foreground = #fff
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
@@ -258,7 +258,7 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = " %a, %m[%b] %d, %Y"
+date = " %a, %d %b[%m] %Y"
 ;date-alt = " %Y-%m-%d"
 
 time = %H:%M:%S
@@ -346,9 +346,9 @@ label = %temperature%
 label-warn = %temperature%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+; ramp-0 = 
+; ramp-1 = 
+; ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]

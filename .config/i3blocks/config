@@ -1,22 +1,25 @@
-command=~/.scripts/statusbar/$BLOCK_NAME
-separator_block_width=15
+separator_block_width=14
 markup=pango
 
 [keyboard]
+command=~/.scripts/statusbar/keyboard.sh
 interval=once
 signal=1
 
 [brightness]
+command=~/.scripts/statusbar/brightness.sh
 interval=once
 signal=10
 
 [volume]
+command=~/.scripts/statusbar/volume.sh
 interval=once
 signal=10
 
 [battery]
-command=~/.scripts/statusbar/battery BAT0
+command=~/.scripts/statusbar/battery.sh BAT0
 interval=5
 
 [clock]
+command=~/.scripts/statusbar/clock.sh
 interval=20
